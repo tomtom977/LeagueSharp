@@ -32,11 +32,11 @@ namespace Fake_Server_Messages
       Notifications.AddNotification("Fake Server Messages by DanZ Loaded!", 1000);
       Config = new Menu("Fake Server Messages", "FSM", true);
       Config.SubMenu("Instructions:");
-      Config.SubMenu("-------");
+      Config.SubMenu(" ");
       Config.SubMenu("-Use .msg to define the new line message                                                                 Example: .msg Server will shutdown in 5 minute)");
-      Config.SubMenu("---------");
+      Config.SubMenu(" ");
       Config.SubMenu("-Use .all 0 or 1 to configure if the message is sent to team or to all.                  Example: .timestamp 1 ");
-      Config.SubMenu("-----------");
+      Config.SubMenu(" ");
 
       Config.AddToMainMenu();
       Game.OnUpdate += OnGameUpdate;
